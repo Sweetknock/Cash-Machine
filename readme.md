@@ -1,0 +1,3 @@
+cash_machine.cpp contains a class which will take a double user input and will return an int array with ten elements representing each of the standard bills and coins in the US currency system. CashMachine has one function to calculated the bills based on a user input, a function which will print the calculated bills, and a function which will copy the calculated bill quantity to an input array.
+
+It seems that the double datatype is the bottleneck for how large of an input the function can handle so there is a check which will return a warning if the user input is too large. 
